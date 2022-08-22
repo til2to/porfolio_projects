@@ -63,11 +63,6 @@ body {
     color: #dcdce8;
   }
 
-  ul {
-    display: flex;
-    justify-content: flex-start;
-  }
-
   .tags li {
     list-style-type: none;
     padding-right: 15px;
