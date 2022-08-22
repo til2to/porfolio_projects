@@ -25,6 +25,7 @@ body {
 
   .title_post {
     color: #fff;
+    margin-left: 30px;
   }
 
   h1 {
@@ -63,11 +64,6 @@ body {
     color: #dcdce8;
   }
 
-  ul {
-    display: flex;
-    justify-content: flex-start;
-  }
-
   .tags li {
     list-style-type: none;
     padding-right: 15px;
@@ -77,6 +73,8 @@ body {
     align-items: center;
     font-weight: 500;
     border-left: 2px solid #555;
+    float: left;
+    margin-bottom: 10px;
   }
 
   .tags li:first-child {
