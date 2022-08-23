@@ -141,13 +141,26 @@ body {
   }
 }
 
-form {
+#contact-me > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f5f5ff;
+}
+
+#contact-me header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+#contact-me h2 {
+  color: #9390ff;
 }
 
 fieldset {
   border: none;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 3vh;
 }
 
@@ -159,6 +172,8 @@ input {
 textarea {
   margin: 1vh 1.5vh;
   padding: 1vh;
+  height: 20vh;
+  resize: vertical;
 }
 
 form .button {
@@ -166,4 +181,30 @@ form .button {
   width: 100px;
   margin: 4vh 0;
   align-self: center;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-top: 1px solid #3a3837;
+  padding-top: 4vh;
+  justify-content: center;
+}
+
+.social-media ul > li {
+  margin: 2vh;
+}
+
+.social-media > p{
+  margin: 0;
+  margin-bottom: 10vh;
 }
