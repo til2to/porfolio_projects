@@ -141,3 +141,29 @@ body {
   }
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 3vh;
+}
+
+input {
+  margin: 1.5vh;
+  padding: 1vh;
+}
+
+textarea {
+  margin: 1vh 1.5vh;
+  padding: 1vh;
+}
+
+form .button {
+  border: none;
+  width: 100px;
+  margin: 4vh 0;
+  align-self: center;
+}
