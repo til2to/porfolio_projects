@@ -25,6 +25,7 @@ body {
 
   .title_post {
     color: #fff;
+    margin-left: 25px;
   }
 
   h1 {
@@ -139,3 +140,4 @@ body {
     top: 28%;
   }
 }
+
