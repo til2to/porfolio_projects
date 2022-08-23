@@ -141,11 +141,11 @@
       <section class="button">See Project</section>
     </section>
     <section id="contact-me">
-      <header>
+      <article>
         <h2>CONTACT US</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+        <p class="contact_description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
         </p>
-      </header>
+      </article>
         <form action="https://formspree.io/f/xrgdbeyr" method="post">
           <fieldset>
           <input type="text" id="name" name="Name" placeholder="Text Input" required
@@ -153,7 +153,7 @@
           />
           <input type="email" id="email" name="Email" placeholder="jeremy@gmail.com" required
           />
-          <textarea name="Text Area" id="textarea" placeholder="Enter text here" required></textarea>
+          <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
           <button class="button" type="submit">Get in touch</button>
         </fieldset>
         </form>
