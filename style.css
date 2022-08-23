@@ -141,6 +141,11 @@ body {
   }
 }
 
+.social-media > p {
+  margin: 0;
+  margin-bottom: 10vh;
+}
+
 #contact-me > p {
   font-size: 16px;
   font-weight: 400;
@@ -189,7 +194,7 @@ form .button {
   align-items: center;
 }
 
-.social-media ul{
+.social-media ul {
   list-style: none;
   display: flex;
   margin: 0;
@@ -202,9 +207,4 @@ form .button {
 
 .social-media ul > li {
   margin: 2vh;
-}
-
-.social-media > p{
-  margin: 0;
-  margin-bottom: 10vh;
 }
