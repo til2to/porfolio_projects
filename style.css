@@ -8,6 +8,46 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+a h2 {
+  margin: 20px;
+}
+
+.headlines h3 {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.languages h3 {
+  text-align: right;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
 @media screen and (max-width: 500px) {
   html,
   body {
@@ -16,6 +56,21 @@ body {
     margin: 0;
     overflow-x: hidden;
   }
+  
+  nav img {
+    margin-right: 5px;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  /* .headline_ellipse_18 {
+    background-image: url('Ellipse_18.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+  } */
 
   .projects {
     display: grid;
@@ -43,6 +98,69 @@ body {
     width: 1px;
     height: 40px;
     background-color: #555;
+  }
+
+  .languages {
+    margin: 10px;
+  }
+  
+  .languages ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .languages li {
+    color: #f5f6ff;
+    padding: 30px;
+    padding-top: 0;
+  }
+
+  .frameworks h3 {
+    text-align: center;
+  }
+
+  .frameworks {
+    margin: 10px;
+    padding-left: 35px;
+  }
+
+  .frameworks ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .frameworks li {
+    color: f5f5ff;
+    padding: 30px;
+    padding-top: 0;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-top: 0;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skills h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .skills li {
+    padding-bottom: 20px;
+    padding-top: 0;
   }
 
   .ellipse_19 {
@@ -150,6 +268,7 @@ body {
   font-weight: 400;
   color: #f5f5ff;
   text-align: center;
+  color: #c8c8d4;
 }
 
 #contact-me article {
@@ -192,6 +311,14 @@ form .button {
 }
 
 .social-media ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.social-media-bottom ul {
   list-style: none;
   display: flex;
   margin: 0;
@@ -204,4 +331,14 @@ form .button {
 
 .social-media ul > li {
   margin: 2vh;
+}
+
+.social-media-bottom ul > li {
+  margin: 2vh;
+}
+
+.work {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
 }
