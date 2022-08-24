@@ -31,7 +31,7 @@ a h2 {
 }
 
 .languages h3 {
-  text-align: right;
+  text-align: center;
 }
 
 .frame {
@@ -60,17 +60,15 @@ a h2 {
   nav img {
     margin-right: 5px;
   }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+  }
   
   nav ul {
     display: none;
   }
-
-  /* .headline_ellipse_18 {
-    background-image: url('Ellipse_18.png');
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50px;
-  } */
 
   .projects {
     display: grid;
@@ -78,12 +76,17 @@ a h2 {
     grid-template-columns: 100%;
   }
 
+  .projects h2 {
+    text-align: center;
+    color: #9490ff;
+  }
+
   .title_post {
     color: #fff;
     margin-left: 25px;
   }
 
-  h1 {
+  .headlines h2 {
     color: #9490ff;
     font-weight: 500;
     font-size: 40px;
@@ -181,11 +184,6 @@ a h2 {
     color: #dcdce8;
   }
 
-  ul {
-    display: flex;
-    justify-content: flex-start;
-  }
-
   .tags li {
     list-style-type: none;
     padding-right: 15px;
@@ -266,7 +264,6 @@ a h2 {
 .contact_description {
   font-size: 18px;
   font-weight: 400;
-  color: #f5f5ff;
   text-align: center;
   color: #c8c8d4;
 }
