@@ -1,0 +1,23 @@
+{
+  "name": "porfolio_projects",
+  "version": "1.0.0",
+  "description": "> Portfolio, mobile version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/til2to/porfolio_projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/til2to/porfolio_projects/issues"
+  },
+  "homepage": "https://github.com/til2to/porfolio_projects#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
+}
