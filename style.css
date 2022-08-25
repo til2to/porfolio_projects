@@ -493,8 +493,8 @@ fieldset {
     background-image: url('desk_ellipse_19.png');
     background-repeat: no-repeat;
     position: absolute;
-    left: -10%;
-    top: -70%;
+    left: 0%;
+    top: -10%;
     height: 700px;
     width: 350px;
   }
@@ -513,8 +513,8 @@ fieldset {
     width: 250px;
     height: 450px;
     left: auto;
-    right: 0;
-    top: 0%;
+    right: 0%;
+    top: 30%;
   }
 
   .pro_3 {
@@ -528,8 +528,8 @@ fieldset {
     background-image: url('desk_ellipse_21.png');
     background-repeat: no-repeat;
     position: absolute;
-    height: 250px;
-    width: 310px;
+    height: 300px;
+    width: 350px;
   }
 
   .deskpro_4 {
@@ -543,8 +543,8 @@ fieldset {
     background-repeat: no-repeat;
     position: absolute;
     height: 750px;
-    width: 300px;
-    top: -50%;
+    width: 400px;
+    top: -30%;
     left: auto;
     right: 0;
   }
@@ -553,7 +553,7 @@ fieldset {
     text-align: left;
     color: #9390ff;
     font-size: 25px;
-    margin: 2vh 14vh;
+    margin: 2vh 12vw;
     border-bottom: 1px solid #3a3837 !important;
   }
 
@@ -563,6 +563,10 @@ fieldset {
 
   .languages h3 {
     font-size: 18px;
+  }
+
+  #frame_container h3 {
+    color: #9390ff;
   }
 
   .languages {
@@ -642,8 +646,8 @@ fieldset {
   }
 
   .img_placeholder {
-    min-width: 400px;
-    height: 300px;
+    min-width: 684px;
+    height: 448px;
   }
 
   .pro_2 {
