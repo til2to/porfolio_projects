@@ -79,8 +79,8 @@ ul {
 
   .deskpro_4 {
     display: none;
-  }
-  
+  }  
+
   .recent_work {
     text-align: center;
     color: #9390ff;
@@ -407,7 +407,7 @@ fieldset {
   .headlines {
     margin-bottom: 12vh;
   }
-  
+
   .headlines h2 {
     color: #9391ff;
     font-weight: 700;
