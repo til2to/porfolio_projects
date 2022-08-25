@@ -79,7 +79,7 @@ ul {
 
   .deskpro_4 {
     display: none;
-  }  
+  }
 
   .recent_work {
     text-align: center;
@@ -420,7 +420,7 @@ fieldset {
     font-size: 30px;
     color: #dfe1e6;
   }
-  
+
   .ellipse_18 {
     background-image: url('circle_1_header.png');
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ fieldset {
     margin-left: -5vh;
     position: relative;
   }
-  
+
   .back {
     background-image: url('circle_2_header.png');
     background-repeat: no-repeat;
@@ -531,7 +531,7 @@ fieldset {
     height: 250px;
     width: 310px;
   }
-  
+
   .deskpro_4 {
     position: relative;
     display: flex;
@@ -568,39 +568,39 @@ fieldset {
   .languages {
     margin: 15px;
   }
-  
+
   .languages ul {
     display: flex;
     list-style-type: none;
     flex-direction: column;
     margin-top: 1vh;
   }
-  
+
   .languages li {
     color: #f5f6ff;
     padding: 20px;
     padding-top: 1vh;
     font-size: 18px;
   }
-  
+
   .frameworks ul {
     display: flex;
     list-style-type: none;
     flex-direction: column;
   }
-  
+
   .frameworks li {
     color: f5f5ff;
     padding-top: 0;
     font-size: 18px;
   }
-  
+
   .skills ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
   }
-  
+
   .skills li {
     padding-top: 0;
     font-size: 18px;
@@ -611,7 +611,7 @@ fieldset {
     flex-direction: column;
     margin-top: 1.3vh;
   }
-  
+
   .social_mediaWork {
     display: flex;
     flex-direction: row;
