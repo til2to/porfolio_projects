@@ -438,7 +438,7 @@ fieldset {
     font-size: 18px;
     margin-right: 10px;
   }
-
+  
   a h2 {
     font-weight: 500;
     font-size: 18px;
@@ -486,6 +486,7 @@ fieldset {
   .ellipse_19 {
     position: relative;
     background-image: none;
+    display: flex;
   }
 
   #ellipse_19 {
@@ -501,6 +502,8 @@ fieldset {
   .deskpro_2 {
     position: relative;
     background-image: none;
+    display: flex;
+    margin-top: 5vh;
   }
 
   .ellipse_20 {
@@ -517,6 +520,8 @@ fieldset {
   .pro_3 {
     position: relative;
     background-image: none;
+    display: flex;
+    margin-top: 5vh;
   }
 
   .ellipse_21 {
@@ -526,9 +531,11 @@ fieldset {
     height: 250px;
     width: 310px;
   }
-
-  .deskpro_4{
+  
+  .deskpro_4 {
     position: relative;
+    display: flex;
+    margin-top: 5vh;
   }
 
   .ellipse_22 {
@@ -610,15 +617,11 @@ fieldset {
     flex-direction: row;
   }
 
-  .ellipse_19 {
-    display: flex;
-  }
-
   #social_mediaWork {
     display: flex;
     width: 100%;
     margin: 7vh 0;
-    justify-content: space-around
+    justify-content: space-around;
   }
 
   .work_first {
@@ -647,23 +650,8 @@ fieldset {
     display: none;
   }
 
-  .deskpro_2 {
-    display: flex;
-    margin-top: 5vh;
-  }
-
-  .pro_3 {
-    display: flex;
-    margin-top: 5vh;
-  }
-
   .pro_4 {
     display: none;
-  }
-
-  .deskpro_4 {
-    display: flex;
-    margin-top: 5vh;
   }
 
   .ellipse {
