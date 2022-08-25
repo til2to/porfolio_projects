@@ -12,18 +12,25 @@
   <header>
     <a href="#"><h2>John Doe</h2></a>
     <nav>
-      <img src="menu.png" alt="">
+      <img src="menu.png" class="menu" alt="">
+      <ul class="menu_items">
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li><img src="mail.png" class="mail" alt="image"></li>
+      </ul>
     </nav>
   </header>  
 
   <main>
-    <section class="headline_ellipse_18">
+    <section id="headline">
+      <div class="ellipse_18"></div>
       <article class="headlines">
         <h2> Owusu Dennis </h2>
         <h3> Software Developer </h3>
       </article>
 
-      <article class="contact_description">
+      <article class="brand">
         <p>
           I can help you build a product, 
           feature or website Look through some of my 
@@ -34,7 +41,7 @@
       <hr>
     </section>  
     
-    <section>
+    <section id="frame_container">
       <article class="frame">
         <section class="languages">
           <h3>Languages</h3>
@@ -59,146 +66,191 @@
           </ul>
         </section>
       </article>
+
+      <article class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>GitLab</li>
+          <li>Terminal</li>
+        </ul>
+      </article>
     </section>
 
-    <article class="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>Codekit</li>
-        <li>Github</li>
-        <li>Codepen</li>
-        <li>GitLab</li>
-        <li>Terminal</li>
-      </ul>
-    </article>
-    
     <hr>
     
-    <article class="social-media">
-      <ul>
-        <li><a href="#"><img src="one.png" alt=""></a></li>
-        <li><a href="#"><img src="Frame.png" alt=""></a></li>
-        <li><a href="#"><img src="three.png" alt=""></a></li>
-        <li><a href="#"><img src="four.png" alt=""></a></li>
-        <li><a href="#"><img src="five.png" alt=""></a></li>
-      </ul>
-    </article>
+    <section id="social_mediaWork">
+      <section class="work_first">
+        <a href="#"><img src="Element_Right.png" alt=""></a>
+      </section>
 
-    <section class="work">
-      <a href="#"><img src="Element_Right.png" alt=""></a>
+      <article class="social-media">
+        <ul>
+          <li><a href="#"><img src="one.png" alt=""></a></li>
+          <li><a href="#"><img src="Frame.png" alt=""></a></li>
+          <li><a href="#"><img src="three.png" alt=""></a></li>
+          <li><a href="#"><img src="four.png" alt=""></a></li>
+          <li><a href="#"><img src="five.png" alt=""></a></li>
+        </ul>
+      </article>
+  
+      <section class="work">
+        <a href="#"><img src="Element_Right.png" alt=""></a>
+      </section>
     </section>
 
     <section class="projects">
-      <article>
-        <h2>MY RECENT WORK</h2>
+      <article class="recent_work">
+        <h2 class="recent-mobile">MY RECENT WORK</h2>
+        <h2 class="recent-desk">My recent work</h2>
       </article>
 
-      <hr>
+      <hr id="desk-line">
 
       <section class="ellipse_19">
+        <div id="ellipse_19"></div>
         <figure class="img_placeholder">
           <img src="placeholder.png" alt="">
         </figure>
 
-        <article>
-          <h2 class="title_post">Multi-Post Stories</h2>
-        </article>
-    
-        <article>
-          <p>
-            A daily selection of privately personalized reads; 
-            no accounts or sign-ups required. has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a standard dummy text.
-          </p>
-        </article>
-    
-        <article class="tags">
-          <ul>
-            <li>css</li>
-            <li>html</li>
-            <li>javascript</li>
-            <li>Ruby</li>
-          </ul>
-        </article>
-    
-        <section class="button">See Projects</section>
+        <section class="post_container">
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+          
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+      
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+      
+          <section class="button">See Projects</section>
+        </section>
       </section>
-      <!--  -->
+      
       <section class="pro_2">
         <figure class="img_placeholder">
           <img src="placeholder.png" alt="">
         </figure>
         
-        <section class="ellipse_20"></section>
-        
-        <article>
-          <h2 class="title_post">Multi-Post Stories</h2>
-        </article>
-    
-        <article>
-          <p>
-            A daily selection of privately personalized reads; 
-            no accounts or sign-ups required. has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a standard dummy text.
-          </p>
-        </article>
-    
-        <article class="tags">
-          <ul>
-            <li>css</li>
-            <li>html</li>
-            <li>javascript</li>
-            <li>Ruby</li>
-          </ul>
-        </article>
-    
-        <section class="button">See Projects</section>
+        <section class="post_info">
+          <section class="ellipse_20"></section>
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+      
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+      
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+      
+          <section class="button">See Projects</section>
+        </section>
       </section>
-      <!--  -->
+
+      <section class="deskpro_2">
+        <section class="post_info">
+          <div class="ellipse_20"></div>
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+      
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+      
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+      
+          <section class="button">See Projects</section>
+        </section>
+
+        <figure class="img_placeholder">
+          <img src="placeholder.png" alt="">
+        </figure>
+      </section>
+      
       <section class="pro_3">
         <figure class="img_placeholder">
           <img src="placeholder.png" alt="">
         </figure>
     
-        <article>
-          <h2 class="title_post">Multi-Post Stories</h2>
-        </article>
-
-        <section class="ellipse_21"></section>
-
-        <article>
-          <p>
-            A daily selection of privately personalized reads; 
-            no accounts or sign-ups required. has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a standard dummy text.
-          </p>
-        </article>
-    
-        <article class="tags">
-          <ul>
-            <li>css</li>
-            <li>html</li>
-            <li>javascript</li>
-            <li>Ruby</li>
-          </ul>
-        </article>
-    
-        <section class="button">See Projects</section>
+        <section class="post_info">
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+  
+          <div class="ellipse_21"></div>
+  
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+      
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+      
+          <section class="button">See Projects</section>
+        </section>
       </section>
-      <!--  -->
+      
       <section class="pro_4">
         <figure class="img_placeholder">
           <img src="placeholder.png" alt="">
         </figure>
     
-        <section class="ellipse_22"></section>
         <article>
           <h2 class="title_post">Multi-Post Stories</h2>
         </article>
-        
+        <section class="ellipse_22"></section>
         <article>
           <p>
             A daily selection of privately personalized reads; 
@@ -219,35 +271,73 @@
     
         <section class="button">See Project</section>
       </section>
+
+      <section class="deskpro_4">  
+        <section class="post_info">
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+
+          <div class="ellipse_22"></div>
+          
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+    
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+    
+          <section class="button">See Project</section>
+        </section>
+
+        <figure class="img_placeholder">
+          <img src="placeholder.png" alt="">
+        </figure>
+      </section>
+      
       <section id="contact-me">
-        <article>
-          <h2>CONTACT US</h2>
+        <article class="contact-info">
+          <h2 class="mobile_contact">CONTACT US</h2>
+          <h2 class="chat">Let's chat!</h2>
           <p class="contact_description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
           </p>
         </article>
-          <form action="https://formspree.io/f/xrgdbeyr" method="post">
-            <fieldset>
-            <input type="text" id="name" name="Name" placeholder="Text Input" required
-            maxlength="30"
-            />
-            <input type="email" id="email" name="Email" placeholder="jeremy@gmail.com" required
-            />
-            <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
-            <button class="button" type="submit">Get in touch</button>
-          </fieldset>
-          </form>
-          
-        <article class="social-media-bottom">
-          <ul>
-            <li><a href="#"><img src="one.png" alt=""></a></li>
-            <li><a href="#"><img src="Frame.png" alt=""></a></li>
-            <li><a href="#"><img src="three.png" alt=""></a></li>
-            <li><a href="#"><img src="four.png" alt=""></a></li>
-            <li><a href="#"><img src="five.png" alt=""></a></li>
-          </ul>
-          <p>emailhere@gmail.com</p>
-        </article>
+
+        <form action="https://formspree.io/f/xrgdbeyr" method="post">
+          <fieldset>
+          <input type="text" id="name" name="Name" placeholder="Text Input" required
+          maxlength="30"
+          />
+          <input type="email" id="email" name="Email" placeholder="jeremy@gmail.com" required
+          />
+          <textarea name="Text Area" id="textarea" placeholder="Enter text here" maxlength="500" required></textarea>
+          <button class="mobile-button" type="submit">Get in touch</button>
+          <button class="desk_button" type="submit">Send</button>
+        </fieldset>
+        </form>
       </section>
+
+      <article class="social-media-bottom">
+        <ul>
+          <li><a href="#"><img src="one.png" alt=""></a></li>
+          <li><a href="#"><img src="Frame.png" alt=""></a></li>
+          <li><a href="#"><img src="three.png" alt=""></a></li>
+          <li><a href="#"><img src="four.png" alt=""></a></li>
+          <li><a href="#"><img src="five.png" alt=""></a></li>
+        </ul>
+        <p>emailhere@gmail.com</p>
+      </article>
     </section>
   </main>
 </body>
