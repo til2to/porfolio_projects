@@ -249,10 +249,14 @@ p {
   padding: 5px;
   margin-left: 35px;
   margin-bottom: 40px;
+  transition-property: background-color, box-shadow;
+  transition-duration: 1s;
+  transition-timing-function: ease out;
 }
 
 .button:hover {
   box-shadow: 5px 5px 70px 1px #9390ff;
+  background-color: #5e42d7;
 }
 
 .button:active {
@@ -690,10 +694,14 @@ fieldset {
     background-color: #9390ff;
     color: #fff;
     border: none;
+    transition-property: background-color, box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease out;
   }
 
   .desk_button:hover {
     box-shadow: 5px 5px 70px 1px #9390ff;
+    background-color: #5e42d7;
   }
 
   .desk_button:active {
