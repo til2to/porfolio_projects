@@ -174,7 +174,7 @@ hr {
 }
 
 .ellipse_18 {
-  background-image: url('Ellipse_18.png');
+  background-image: url('/images/Ellipse_18.png');
   background-repeat: no-repeat;
   position: absolute;
   top: -60px;
@@ -195,7 +195,7 @@ hr {
 }
 
 .ellipse_19 {
-  background-image: url('Ellipse_19.png');
+  background-image: url('/images/Ellipse_19.png');
   background-repeat: no-repeat;
 }
 
@@ -268,7 +268,7 @@ p {
 }
 
 .ellipse_20 {
-  background-image: url('ellipse_20.png');
+  background-image: url('/images/ellipse_20.png');
   background-repeat: no-repeat;
   position: absolute;
   width: 50%;
@@ -282,7 +282,7 @@ p {
 }
 
 .ellipse_21 {
-  background-image: url('ellipse_21.png');
+  background-image: url('/images/ellipse_21.png');
   background-repeat: no-repeat;
   position: absolute;
   width: 60%;
@@ -296,7 +296,7 @@ p {
 }
 
 .ellipse_22 {
-  background-image: url('ellipse_22.png');
+  background-image: url('/images/ellipse_22.png');
   background-repeat: no-repeat;
   position: absolute;
   width: 60%;
@@ -440,7 +440,7 @@ fieldset {
   }
 
   .ellipse_18 {
-    background-image: url('circle_1_header.png');
+    background-image: url('/images/circle_1_header.png');
     background-repeat: no-repeat;
     position: absolute;
     top: 1%;
@@ -492,7 +492,7 @@ fieldset {
   }
 
   .back {
-    background-image: url('circle_2_header.png');
+    background-image: url('/images/circle_2_header.png');
     background-repeat: no-repeat;
     position: absolute;
     top: -50%;
@@ -508,7 +508,7 @@ fieldset {
   }
 
   #ellipse_19 {
-    background-image: url('desk_ellipse_19.png');
+    background-image: url('/images/desk_ellipse_19.png');
     background-repeat: no-repeat;
     position: absolute;
     left: 0%;
@@ -525,7 +525,7 @@ fieldset {
   }
 
   .ellipse_20 {
-    background-image: url('desk_ellipse_20.png');
+    background-image: url('/images/desk_ellipse_20.png');
     background-repeat: no-repeat;
     position: absolute;
     width: 250px;
@@ -543,7 +543,7 @@ fieldset {
   }
 
   .ellipse_21 {
-    background-image: url('desk_ellipse_21.png');
+    background-image: url('/images/desk_ellipse_21.png');
     background-repeat: no-repeat;
     position: absolute;
     height: 300px;
@@ -557,7 +557,7 @@ fieldset {
   }
 
   .ellipse_22 {
-    background-image: url('desk_ellipse_22.png');
+    background-image: url('/images/desk_ellipse_22.png');
     background-repeat: no-repeat;
     position: absolute;
     height: 750px;
@@ -664,8 +664,9 @@ fieldset {
   }
 
   .img_placeholder {
-    min-width: 684px;
+    width: 600px;
     height: 448px;
+    align-self: flex-start importat !important;
   }
 
   .pro_2 {

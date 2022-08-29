@@ -11,7 +11,7 @@
 
 👤 **Author1**
 
-- GitHub: [@til2to](https://github.com/til2to)
+- GitHub: [@til2to](https://til2to.github.io/porfolio_projects/)
 
 ## 🤝 Contributing
 
