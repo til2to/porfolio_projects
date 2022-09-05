@@ -12,10 +12,11 @@
     <a href="#"><h2>John Doe</h2></a>
     <nav>
       <img src="/images/menu.png" class="menu" alt="">
-      <ul class="menu_items">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+      <ul class="menu_items" id="menuList">
+        <button id="btn_close">X</button>
+        <li><a href="#project-s">Portfolio</a><span>></span></li>
+        <li><a href="#headline">About</a><span>></span></li>
+        <li><a href="#contact-me">Contact</a><span>></span></li>
         <li><img src="/images/mail.png" class="mail" alt="image"></li>
       </ul>
     </nav>
@@ -100,7 +101,7 @@
       </section>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="project-s">
       <article class="recent_work">
         <h2 class="recent-mobile">MY RECENT WORK</h2>
         <h2 class="recent-desk">My recent work</h2>
@@ -111,7 +112,7 @@
       <section class="ellipse_19">
         <div id="ellipse_19"></div>
         <figure class="img_placeholder">
-          <img src="/images/placeholder.png" alt="">
+          <img class="imagePlaceholder" src="/images/placeholder.png" alt="">
         </figure>
 
         <section class="post_container">
