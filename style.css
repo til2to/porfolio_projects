@@ -16,7 +16,7 @@ body {
   z-index: 1;
   top: 0;
   list-style-type: none;
-  display: block;
+  display: none;
   margin-left: 0;
   padding-left: 0;
 }
@@ -33,12 +33,22 @@ body {
   align-items: center;
 }
 
+.menu_items li span {
+  color: #acb7c3
+  ;
+}
+
 .menu_items li:nth-child(3) {
   margin: 30px 0;
 }
 
 .menu_items li:nth-child(5) {
   margin: 30px 0;
+}
+
+#toggleBtn {
+  background-color: transparent;
+  border: none;
 }
 
 #btn_close {
@@ -102,6 +112,15 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  .brand {
+    text-align: center;
+    padding: 6px;
+  }
+
+  .brand p {
+    margin-right: 0;
+  }
+
   .work_first {
     display: none;
   }
@@ -123,9 +142,12 @@ ul {
   }
 
   .recent_work {
-    text-align: center;
     color: #9390ff;
     align-self: center;
+    text-align: start;
+    width: 80%;
+    margin-left: 48px;
+    border-bottom: 2px solid #646369;
   }
 
   .chat {
@@ -253,6 +275,10 @@ p {
   font-weight: 400;
   font-size: 20px;
   color: #dcdce8;
+}
+
+.tags ul {
+  padding-left: 0;
 }
 
 .tags li {
@@ -441,6 +467,11 @@ fieldset {
   border-top: 1px solid #3a3837;
   padding-top: 4vh;
   justify-content: center;
+}
+
+.post_container article {
+  text-align: start;
+  margin-left: 50px;
 }
 
 .work {
