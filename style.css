@@ -34,8 +34,43 @@ body {
 }
 
 .menu_items li span {
-  color: #acb7c3
-  ;
+  color: #acb7c3;
+}
+
+.languages li {
+  color: #f5f6ff;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.frameworks li {
+  color: f5f5ff;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.tags li {
+  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  font-weight: 500;
+  border-left: 2px solid #555;
+}
+
+.skills li {
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.social-media ul > li {
+  margin: 2vh;
+}
+
+.social-media-bottom ul > li {
+  margin: 2vh;
 }
 
 .menu_items li:nth-child(3) {
@@ -166,7 +201,7 @@ ul {
 }
 
 .title_post {
-  color: #fff ;
+  color: #fff;
   margin-left: 0;
 }
 
@@ -197,12 +232,6 @@ hr {
   padding: 0;
 }
 
-.languages li {
-  color: #f5f6ff;
-  padding: 30px;
-  padding-top: 0;
-}
-
 .frameworks h3 {
   text-align: center;
 }
@@ -217,12 +246,6 @@ hr {
   list-style-type: none;
   flex-direction: column;
   padding: 0;
-}
-
-.frameworks li {
-  color: f5f5ff;
-  padding: 30px;
-  padding-top: 0;
 }
 
 .skills ul {
@@ -257,11 +280,6 @@ hr {
   margin-bottom: 10px;
 }
 
-.skills li {
-  padding-bottom: 20px;
-  padding-top: 0;
-}
-
 .ellipse_19 {
   background-image: url('/images/Ellipse_19.png');
   background-repeat: no-repeat;
@@ -286,25 +304,6 @@ p {
   padding-left: 0;
 }
 
-.tags li {
-  list-style-type: none;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  align-items: center;
-  font-weight: 500;
-  border-left: 2px solid #555;
-}
-
-.social-media ul > li {
-  margin: 2vh;
-}
-
-.social-media-bottom ul > li {
-  margin: 2vh;
-}
-
 .tags li:first-child {
   border-left: none;
 }
@@ -313,6 +312,7 @@ p {
   display: flex;
   background: #7d73fc;
   width: 89px;
+
   /* justify-content: center; */
   align-items: center;
   height: 33px;
@@ -421,6 +421,11 @@ form .mobile-button {
   margin-left: 10%;
 }
 
+.post_container article {
+  text-align: start;
+  margin-left: 50px;
+}
+
 #contact-me article {
   display: flex;
   flex-direction: column;
@@ -474,12 +479,7 @@ fieldset {
   justify-content: center;
 }
 
-.post_container article {
-  text-align: start;
-  margin-left: 50px;
-}
-
-.post_info{
+.post_info {
   text-align: start;
   margin-left: 10%;
 }
@@ -770,8 +770,6 @@ fieldset {
   .tags ul {
     margin-left: -20px;
   }
-
-
 
   #contact-me {
     margin: 15vh 18% 0 18%;
