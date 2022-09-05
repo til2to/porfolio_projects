@@ -6,6 +6,7 @@
 
 - css
 - html
+- Javascript
 
 ## Authors
 

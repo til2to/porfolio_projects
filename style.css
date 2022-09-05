@@ -166,8 +166,13 @@ ul {
 }
 
 .title_post {
-  color: #fff;
+  color: #fff ;
   margin-left: 0;
+}
+
+.tags button {
+  align-self: flex-start;
+  background-color: red;
 }
 
 .headlines h2 {
@@ -308,13 +313,12 @@ p {
   display: flex;
   background: #7d73fc;
   width: 89px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 33px;
   color: #edecff;
   font-size: 15px;
   padding: 5px;
-  margin-left: 35px;
   margin-bottom: 40px;
   transition-property: background-color, box-shadow;
   transition-duration: 1s;
@@ -414,6 +418,7 @@ form .mobile-button {
   font-weight: 400;
   text-align: center;
   color: #c8c8d4;
+  margin-left: 10%;
 }
 
 #contact-me article {
@@ -472,6 +477,11 @@ fieldset {
 .post_container article {
   text-align: start;
   margin-left: 50px;
+}
+
+.post_info{
+  text-align: start;
+  margin-left: 10%;
 }
 
 .work {
@@ -760,6 +770,8 @@ fieldset {
   .tags ul {
     margin-left: -20px;
   }
+
+
 
   #contact-me {
     margin: 15vh 18% 0 18%;
