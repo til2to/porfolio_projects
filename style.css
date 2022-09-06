@@ -11,6 +11,10 @@ body {
   position: absolute;
   left: 0;
   background-color: #191765;
+  background-image: url('/images/shape2.png'), url('/images/shape1.png');  
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 4.5em, right bottom;
+  background-size: 13em, 11em;
   height: 100vh;
   width: 100%;
   z-index: 1;
@@ -35,26 +39,6 @@ body {
 
 .menu_items li span {
   color: #acb7c3;
-}
-
-.bg-img1 {
-  background-image: url('/images/shape1.png');
-  background-repeat: no-repeat;
-  position: relative;
-  bottom: -15%;
-  right: -50%;
-  width: 350px;
-  height: 400px;
-}
-
-.bg-img2 {
-  background-image: url('/images/shape2.png');
-  background-repeat: no-repeat;
-  position: relative;
-  width: 450px;
-  height: 750px;
-  bottom: 90%;
-  right: 70%;
 }
 
 .languages li {
@@ -108,7 +92,7 @@ body {
 
 #btn_close {
   position: relative;
-  left: 85%;
+  left: 92%;
   background-color: transparent;
   color: white;
   font-size: 26px;
