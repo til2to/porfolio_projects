@@ -11,7 +11,7 @@ body {
   position: absolute;
   left: 0;
   background-color: #191765;
-  background-image: url('/images/shape2.png'), url('/images/shape1.png');  
+  background-image: url('/images/shape2.png'), url('/images/shape1.png');
   background-repeat: no-repeat, no-repeat;
   background-position: left 4.5em, right bottom;
   background-size: 13em, 11em;
