@@ -2,9 +2,10 @@ const toggleBtn = document.querySelector('#toggleBtn');
 const ulElem = document.querySelector('#menuList');
 const projectContainer = document.querySelector('#project-list');
 const modalContainer = document.querySelector('#detail');
-const modalBtn = document.querySelector('#modal-close');
+const modalMainContainer = document.querySelector('#detail1')
 const lists = document.querySelectorAll('#menuList li a');
 const closeBtn = document.querySelector('#btn_close');
+const blurGround = document.querySelector('.blurBg');
 
 toggleBtn.addEventListener('click', () => {
   ulElem.style.display = 'block';
@@ -55,7 +56,7 @@ const projectArray = [
   }
 ];
 
-projectArray.forEach((project) => {
+projectArray.forEach((project, index) => {
   let tech = '';
   project.technologies.forEach((item) => {
     tech += `<li class="tech-item">
@@ -85,47 +86,58 @@ projectArray.forEach((project) => {
         </ul>
       </article>
 
-      <section class="button">See Projects</section>
+      <button class="button" id=${index}>See Projects</button>
     </section>
   </section>`
 
   projectContainer.innerHTML += projectItem;
 });
 
-// const modal = `
-//   <section class="title">
-//     <h2>Multi-Post stroies</h2>
-//     <button type="button" id="modal-close">X</button>
-//   </section>
+const projectBtns = document.querySelectorAll('.button')
 
-//   <figure><img src="/images/portfolio.png" alt="Project Image"></figure>
-//   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-//     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-//     when an unknown printer took a galley of type and scrambled it 1960s with the 
-//     releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, 
-//     when an unknown printer took a galley of type veris lapoa todoe.</p>
-
-//   <ul class="tags">
-//     <li>html</li>
-//     <li>Ruby on rails</li>
-//     <li>CSS</li>
-//   </ul>
-
-//   <section id="button-group">
-//     <button type="button" class="demo-button">
-//       <span>See Live</span> 
-//       <span><img id="live-icon" src="/images/live.png" alt="live icon"></span>
-//     </button>
-//     <button type="button" class="source-button">
-//       <span>See Source</span> 
-//       <span><img class="github-icon" src="/images/one.png" alt="live icon"></span>
-//     </button> 
-//   </section>
-// `
-
-// modalContainer.innerHTML = modal;
+const modalBtn = document.querySelector('#modal-close');
 
 modalBtn.addEventListener('click', () => {
-  modalContainer.style.display = 'none';
-  console.log('hello')
+  modalMainContainer.style.display = 'none';
+  blurGround.style.filter = 'blur(0)'
+})
+
+const modalContent = (project) => {
+  blurGround.style.filter = 'blur(12px)'
+
+  const modal = `
+  <section class="title">
+    <h2>${project.name}</h2>
+  </section>
+
+  <figure><img src=${project.img} alt="Project Image"></figure>
+  <p>${project.description}.</p>
+
+  <ul class="tags">
+    <li>html</li>
+    <li>Ruby on rails</li>
+    <li>CSS</li>
+  </ul>
+
+  <section id="button-group">
+    <button type="button" class="demo-button">
+      <span>See Live</span> 
+      <span><img id="live-icon" src="/images/live.png" alt="live icon"></span>
+    </button>
+    <button type="button" class="source-button">
+      <span>See Source</span> 
+      <span><img class="github-icon" src="/images/one.png" alt="live icon"></span>
+    </button> 
+  </section>
+`;
+  modalContainer.innerHTML = modal;
+  modalMainContainer.style.display = 'block';
+}
+
+projectBtns.forEach((projectBtn, index) => {
+  projectBtn.addEventListener('click', (e)=>{
+    const getBtnId = e.target.getAttribute('id')
+    const projectObj = projectArray[getBtnId]
+    modalContent(projectObj);
+  })
 })
