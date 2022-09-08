@@ -112,7 +112,7 @@ const modalContent = (project) => {
     <h2>${project.name}</h2>
   </section>
 
-  <figure><img src=${project.img} alt="Project Image"></figure>
+  <figure><img src='/images/portfolio.png' alt="Project Image"></figure>
   <p>${project.description}.</p>
 
   <ul class="tags">

@@ -717,6 +717,7 @@ fieldset {
   .post_info {
     text-align: start;
     margin-left: 0;
+    margin-right: 3em;
   }
 
   .menu_items {
