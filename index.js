@@ -6,6 +6,8 @@ const modalMainContainer = document.querySelector('#detail1');
 const lists = document.querySelectorAll('#menuList li a');
 const closeBtn = document.querySelector('#btn_close');
 const blurGround = document.querySelector('.blurBg');
+const contactForm = document.getElementById('contact-form');
+const errorMsg = document.querySelector('#submitMessage');
 
 toggleBtn.addEventListener('click', () => {
   ulElem.style.display = 'block';
@@ -142,4 +144,14 @@ projectBtns.forEach((projectBtn) => {
     const projectObj = projectArray[getBtnId];
     modalContent(projectObj);
   });
+});
+
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = contactForm.elements.email.value;
+  if (email === email.toLowerCase()) {
+    contactForm.submit();
+  } else {
+    errorMsg.innerText = 'Email should be in lowercase';
+  }
 });
