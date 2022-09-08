@@ -9,7 +9,6 @@ const blurGround = document.querySelector('.blurBg');
 const contactForm = document.getElementById('contact-form');
 const errorMsg = document.querySelector('#submitMessage');
 
-
 toggleBtn.addEventListener('click', () => {
   ulElem.style.display = 'block';
 });
