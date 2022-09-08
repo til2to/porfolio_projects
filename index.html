@@ -8,16 +8,16 @@
   <link rel="stylesheet" href="style.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
-<body>
   <header>
     <a href="#"><h2>John Doe</h2></a>
     <nav>
-      <img src="menu.png" class="menu" alt="">
-      <ul class="menu_items">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li><img src="mail.png" class="mail" alt="image"></li>
+      <button type="button" id="toggleBtn"><img src="/images/menu.png" class="menu" alt=""></button>
+      <ul class="menu_items" id="menuList">
+        <li><button type="button" id="btn_close">X</button></li>
+        <li><a href="#project-s">Portfolio</a><span>></span></li>
+        <li><a href="#headline">About</a><span>></span></li>
+        <li><a href="#contact-me">Contact</a><span>></span></li>
+        <li><img src="/images/mail.png" class="mail" alt="image"><span>></span></li>
       </ul>
     </nav>
   </header>  
@@ -83,39 +83,39 @@
     
     <section id="social_mediaWork">
       <section class="work_first">
-        <a href="#"><img src="Element_Right.png" alt=""></a>
+        <a href="#"><img src="/images/Element_Right.png" alt=""></a>
       </section>
 
       <article class="social-media">
         <ul>
-          <li><a href="#"><img src="one.png" alt=""></a></li>
-          <li><a href="#"><img src="Frame.png" alt=""></a></li>
-          <li><a href="#"><img src="three.png" alt=""></a></li>
-          <li><a href="#"><img src="four.png" alt=""></a></li>
-          <li><a href="#"><img src="five.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/one.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/Frame.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/three.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/four.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/five.png" alt=""></a></li>
         </ul>
       </article>
   
       <section class="work">
-        <a href="#"><img src="Element_Right.png" alt=""></a>
+        <a href="#"><img src="/images/Element_Right.png" alt=""></a>
       </section>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="project-s">
       <article class="recent_work">
         <h2 class="recent-mobile">MY RECENT WORK</h2>
         <h2 class="recent-desk">My recent work</h2>
       </article>
 
-      <hr id="desk-line">
+      <!-- <hr id="desk-line"> -->
 
       <section class="ellipse_19">
         <div id="ellipse_19"></div>
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img class="imagePlaceholder" src="/images/placeholder.png" alt="">
         </figure>
 
-        <section class="post_container">
+        <section class="post_info">
           <article>
             <h2 class="title_post">Multi-Post Stories</h2>
           </article>
@@ -144,7 +144,7 @@
       
       <section class="pro_2">
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img src="/images/placeholder.png" alt="">
         </figure>
         
         <section class="post_info">
@@ -204,13 +204,13 @@
         </section>
 
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img src="/images/placeholder.png" alt="">
         </figure>
       </section>
       
       <section class="pro_3">
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img src="/images/placeholder.png" alt="">
         </figure>
     
         <section class="post_info">
@@ -244,32 +244,34 @@
       
       <section class="pro_4">
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img src="/images/placeholder.png" alt="">
         </figure>
     
-        <article>
-          <h2 class="title_post">Multi-Post Stories</h2>
-        </article>
-        <section class="ellipse_22"></section>
-        <article>
-          <p>
-            A daily selection of privately personalized reads; 
-            no accounts or sign-ups required. has been the 
-            industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a standard dummy text.
-          </p>
-        </article>
-    
-        <article class="tags">
-          <ul>
-            <li>css</li>
-            <li>html</li>
-            <li>javascript</li>
-            <li>Ruby</li>
-          </ul>
-        </article>
-    
-        <section class="button">See Project</section>
+        <section class="post_info">
+          <article>
+            <h2 class="title_post">Multi-Post Stories</h2>
+          </article>
+          <section class="ellipse_22"></section>
+          <article>
+            <p>
+              A daily selection of privately personalized reads; 
+              no accounts or sign-ups required. has been the 
+              industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a standard dummy text.
+            </p>
+          </article>
+      
+          <article class="tags">
+            <ul>
+              <li>css</li>
+              <li>html</li>
+              <li>javascript</li>
+              <li>Ruby</li>
+            </ul>
+          </article>
+      
+          <section class="button">See Project</section>
+        </section>
       </section>
 
       <section class="deskpro_4">  
@@ -302,7 +304,7 @@
         </section>
 
         <figure class="img_placeholder">
-          <img src="placeholder.png" alt="">
+          <img src="/images/placeholder.png" alt="">
         </figure>
       </section>
       
@@ -330,15 +332,16 @@
 
       <article class="social-media-bottom">
         <ul>
-          <li><a href="#"><img src="one.png" alt=""></a></li>
-          <li><a href="#"><img src="Frame.png" alt=""></a></li>
-          <li><a href="#"><img src="three.png" alt=""></a></li>
-          <li><a href="#"><img src="four.png" alt=""></a></li>
-          <li><a href="#"><img src="five.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/one.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/Frame.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/three.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/four.png" alt=""></a></li>
+          <li><a href="#"><img src="/images/five.png" alt=""></a></li>
         </ul>
         <p>emailhere@gmail.com</p>
       </article>
     </section>
   </main>
+  <script src="./index.js"></script>
 </body>
 </html>
