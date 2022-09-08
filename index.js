@@ -100,10 +100,12 @@ const modalBtn = document.querySelector('#modal-close');
 modalBtn.addEventListener('click', () => {
   modalMainContainer.style.display = 'none';
   blurGround.style.filter = 'blur(0)'
+  blurGround.style.opacity = '1';
 })
 
 const modalContent = (project) => {
-  blurGround.style.filter = 'blur(12px)'
+  // blurGround.style.filter = 'blur(2px)';
+  blurGround.style.opacity = '0.15';
 
   const modal = `
   <section class="title">

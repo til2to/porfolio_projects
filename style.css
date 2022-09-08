@@ -28,11 +28,11 @@ body {
   top: 0px;
   bottom: 0px;
   position: fixed;
-  height: 100vh;
+  height: 95vh;
   overflow-y: scroll;
   background-color: rgba(255, 255, 255, 0.16);
   width: 90%;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 #detail h2 {
@@ -60,12 +60,14 @@ body {
 #modal-close {
   position: absolute;
   right: 10%;
-  top: 1%;
+  top: 4%;
   border: none;
   color: #fff;
   font-size: 20px;
   z-index: 10;
   border: none;
+  background-color: rgba(255, 255, 255, 0.16);
+  background: transparent;
 }
 
 #detail .tags li:first-child {
@@ -80,7 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5vh 0;
+  margin: 2vh 0;
 }
 
 #button-group button span:nth-child(2) img {
@@ -102,10 +104,10 @@ body {
 .source-button {
   border: none;
   width: 140px;
-  margin: 5vh 0;
+  margin: 2vh 0;
   text-align: start;
   background: #7d73fc;
-  height: 53px;
+  height: 50px;
   color: #edecff;
   font-size: 17px;
   padding: 7px;
@@ -303,6 +305,10 @@ ul {
 .title_post {
   color: #fff;
   margin-left: 0;
+}
+
+#detail p {
+  margin-bottom: 0;
 }
 
 .tags button {
@@ -557,7 +563,7 @@ fieldset {
   #detail {
     margin-top: 3vh;
     position: fixed;
-    height: 100vh;
+    height: 92vh;
     overflow-y: scroll;
     z-index: 1;
     left: 0px;
@@ -568,7 +574,7 @@ fieldset {
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
     bottom: 0px;
     width: 90%;
-    margin: 0 auto;
+    margin: 17px auto;
   }
   
   #detail h2 {
@@ -596,12 +602,13 @@ fieldset {
   #modal-close {
     position: absolute;
     right: 10%;
-    top: 1%;
-    background-color: red;
+    top: 4%;
     border: none;
     color: #fff;
-    font-size: 55px;
+    font-size: 25px;
     z-index: 10;
+    background-color: rgba(255, 255, 255, 0.16);
+    background: transparent;
   }
   
   #detail ul {
