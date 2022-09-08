@@ -6,6 +6,8 @@ const modalMainContainer = document.querySelector('#detail1');
 const lists = document.querySelectorAll('#menuList li a');
 const closeBtn = document.querySelector('#btn_close');
 const blurGround = document.querySelector('.blurBg');
+const contactForm = document.getElementById('contact-form')
+
 
 toggleBtn.addEventListener('click', () => {
   ulElem.style.display = 'block';
@@ -143,3 +145,14 @@ projectBtns.forEach((projectBtn) => {
     modalContent(projectObj);
   });
 });
+
+console.log(contactForm.elements)
+
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+  let email = contactForm.elements['email'].value;
+  if(email === email.toLowerCase()){
+    contactForm.submit()
+  }
+})

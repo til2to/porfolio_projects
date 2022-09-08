@@ -871,6 +871,12 @@ fieldset {
     font-size: 18px;
   }
 
+  #submitMessage {
+    margin: 15px 12px;
+    text-align: center;
+    color: red;
+  }
+
   .skills {
     display: flex;
     flex-direction: column;
