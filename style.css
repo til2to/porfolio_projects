@@ -27,11 +27,11 @@ body {
   top: 0;
   bottom: 0;
   position: fixed;
-  height: 95vh;
+  height: 98vh;
   overflow-y: scroll;
   background-color: rgba(255, 255, 255, 0.16);
   width: 90%;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 
 a h2 {
@@ -76,7 +76,7 @@ p {
 #detail p {
   text-align: center;
   margin-left: 13px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   margin-bottom: 0;
 }
 
@@ -89,7 +89,7 @@ p {
 #detail figure img {
   margin: 20px 0 15px 0;
   width: 100%;
-  height: 181px;
+  height: 186px;
 }
 
 #modal-close {
@@ -98,7 +98,7 @@ p {
   top: 4%;
   border: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   z-index: 10;
   background-color: transparent;
 }
@@ -159,6 +159,10 @@ ul {
 
 .tags li:first-child {
   border-left: none;
+}
+
+.menu_items li:not(:first-child) {
+  margin-left: 10px !important;
 }
 
 #detail .tags li:first-child {
@@ -222,7 +226,7 @@ header a {
   position: absolute;
   left: 0;
   background-color: #191765;
-  background-image: url('/images/shape2.png'), url('/images/shape1.png');
+  background-image: url('./images/shape2.png'), url('./images/shape1.png');
   background-repeat: no-repeat, no-repeat;
   background-position: left 4.5em, right bottom;
   background-size: 13em, 11em;
@@ -238,14 +242,17 @@ header a {
 
 main {
   position: relative;
-  background-image: url('/images/ellipse_19m.png'), url('/images/ellipse_19.png'), url('/images/ellipse_20.png'), url('/images/ellipse_21.png'), url('/images/ellipse_22.png');
+  background-image: url('./images/ellipse_19m.png'), url('./images/Ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
   background-repeat: no-repeat;
-  background-position: right 18.5em, left 75em, right 112em, left 151em, right 187em;
+  background-position: right 18.5em, left 69em, right 105em, left 151em, right 185em;
   background-size: 5em, 11em, 10em, 11em, 11em;
 }
 
 .menu_items li span {
   color: #acb7c3;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
 }
 
 #toggleBtn {
@@ -258,7 +265,7 @@ main {
   left: 92%;
   background-color: transparent;
   color: white;
-  font-size: 26px;
+  font-size: 18px;
   border: none;
   margin-bottom: 50px;
 }
@@ -381,7 +388,7 @@ hr {
 }
 
 .ellipse_18 {
-  background-image: url('/images/ellipse_18.png');
+  background-image: url('./images/Ellipse_18.png');
   background-repeat: no-repeat;
   position: absolute;
   top: -60px;
@@ -579,6 +586,7 @@ fieldset {
 
   #detail h2 {
     margin-left: 7%;
+    position: fixed;
   }
 
   #detail p {
@@ -594,18 +602,18 @@ fieldset {
   }
 
   #detail figure img {
-    margin: 20px 0 15px 0;
-    width: 100%;
-    height: 505px;
+    margin: 35px 0 15px 0;
+    width: 90%;
+    height: 600px;
   }
 
   #modal-close {
-    position: absolute;
+    position: fixed;
     right: 10%;
     top: 4%;
     border: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 17px;
     z-index: 10;
     background-color: transparent;
   }
@@ -719,7 +727,7 @@ fieldset {
 
   #headline {
     position: relative;
-    background-image: url('/images/circle_1_header.png'), url('/images/circle_2_header.png');
+    background-image: url('./images/circle_1_header.png'), url('./images/circle_2_header.png');
     background-repeat: no-repeat;
     background-position: left 1em, right 11em;
     background-size: 9em, 10em;
@@ -746,10 +754,10 @@ fieldset {
 
   main {
     position: absolute;
-    background-image: url('/images/desk_ellipse_19.png'), url('/images/desk_ellipse_20.png'), url('/images/desk_ellipse_21.png'), url('/images/desk_ellipse_22.png') !important;
+    background-image: url('./images/desk_ellipse_19.png'), url('./images/desk_ellipse_20.png'), url('./images/desk_ellipse_21.png'), url('./images/desk_ellipse_22.png') !important;
     background-repeat: no-repeat;
-    background-position: left 65em, right 100em, left 134em, right 148em;
-    background-size: 20em, 15em, 15em, 17em;
+    background-position: left 70em, right 114em, left 155em, right 172em;
+    background-size: 20em, 17em, 15em, 17em;
   }
 
   #toggleBtn {
@@ -906,8 +914,8 @@ fieldset {
   }
 
   .img_placeholder {
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 800px;
   }
 
   .ellipse {
@@ -915,7 +923,7 @@ fieldset {
   }
 
   #contact-me {
-    margin: 15vh 18% 0 18%;
+    margin: 10vh 25% 0 25%;
   }
 
   #contact-me input:hover::placeholder {
@@ -934,6 +942,15 @@ fieldset {
 
   .contact-info {
     margin-bottom: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contact_description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center !important;
+    color: #c8c8d4;
   }
 
   .mobile_contact {

@@ -27,33 +27,33 @@ const projectArray = [
   {
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    img: '/images/placeholder.png',
+    img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    img: '/images/placeholder.png',
+    img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    img: '/images/placeholder.png',
+    img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    img: '/images/placeholder.png',
+    img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
 ];
@@ -106,7 +106,6 @@ modalBtn.addEventListener('click', () => {
 });
 
 const modalContent = (project) => {
-  // blurGround.style.filter = 'blur(2px)';
   blurGround.style.opacity = '0.15';
 
   const modal = `
@@ -114,7 +113,7 @@ const modalContent = (project) => {
     <h2>${project.name}</h2>
   </section>
 
-  <figure><img src='/images/portfolio.png' alt="Project Image"></figure>
+  <figure><img src='./images/portfolio.png' alt="Project Image"></figure>
   <p>${project.description}.</p>
 
   <ul class="tags">
@@ -126,14 +125,15 @@ const modalContent = (project) => {
   <section id="button-group">
     <button type="button" class="demo-button">
       <span>See Live</span> 
-      <span><img id="live-icon" src="/images/live.png" alt="live icon"></span>
+      <span><img id="live-icon" src="./images/live.png" alt="live icon"></span>
     </button>
     <button type="button" class="source-button">
       <span>See Source</span> 
-      <span><img class="github-icon" src="/images/one.png" alt="live icon"></span>
+      <span><img class="github-icon" src="./images/one.png" alt="live icon"></span>
     </button> 
   </section>
 `;
+
   modalContainer.innerHTML = modal;
   modalMainContainer.style.display = 'block';
 };

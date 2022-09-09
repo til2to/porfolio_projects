@@ -1,6 +1,22 @@
-# portfolio projects
+# Project Name
 
-> Portfolio, mobile version
+## portfolio projects
+
+> This is a website about showing projects that I have done.
+
+## Getting Started
+
+### Prerequisites
+> Vs Code
+
+### Setup
+
+### Install
+> linters for javascript, css and html
+
+### Deployment
+
+> Github
 
 ## Built With
 
@@ -11,6 +27,14 @@
 ## Authors
 
 👤 **Author1**
+
+### Owusu Dennis Prah
+
+👤 **Author2**
+
+### Kwasi Antwi
+
+## Live Demo
 
 - GitHub: [@til2to](https://til2to.github.io/porfolio_projects/)
 
