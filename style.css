@@ -242,9 +242,9 @@ header a {
 
 main {
   position: relative;
-  background-image: url('./images/ellipse_19m.png'), url('./images/ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
+  background-image: url('./images/ellipse_19m.png'), url('./images/Ellipse_19.png'), url('./images/ellipse_20.png'), url('./images/ellipse_21.png'), url('./images/ellipse_22.png');
   background-repeat: no-repeat;
-  background-position: right 18.5em, left 75em, right 112em, left 151em, right 187em;
+  background-position: right 18.5em, left 69em, right 105em, left 151em, right 185em;
   background-size: 5em, 11em, 10em, 11em, 11em;
 }
 
@@ -388,7 +388,7 @@ hr {
 }
 
 .ellipse_18 {
-  background-image: url('./images/ellipse_18.png');
+  background-image: url('./images/Ellipse_18.png');
   background-repeat: no-repeat;
   position: absolute;
   top: -60px;
@@ -756,8 +756,8 @@ fieldset {
     position: absolute;
     background-image: url('./images/desk_ellipse_19.png'), url('./images/desk_ellipse_20.png'), url('./images/desk_ellipse_21.png'), url('./images/desk_ellipse_22.png') !important;
     background-repeat: no-repeat;
-    background-position: left 65em, right 110em, left 150em, right 168em;
-    background-size: 20em, 15em, 15em, 17em;
+    background-position: left 70em, right 114em, left 155em, right 172em;
+    background-size: 20em, 17em, 15em, 17em;
   }
 
   #toggleBtn {
