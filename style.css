@@ -161,6 +161,10 @@ ul {
   border-left: none;
 }
 
+.menu_items li:not(:first-child) {
+  margin-left: 10px !important;
+}
+
 #detail .tags li:first-child {
   border-left: 2px solid #555;
 }
@@ -246,6 +250,9 @@ main {
 
 .menu_items li span {
   color: #acb7c3;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
 }
 
 #toggleBtn {
@@ -258,7 +265,7 @@ main {
   left: 92%;
   background-color: transparent;
   color: white;
-  font-size: 26px;
+  font-size: 18px;
   border: none;
   margin-bottom: 50px;
 }
@@ -598,7 +605,6 @@ fieldset {
     margin: 35px 0 15px 0;
     width: 90%;
     height: 600px;
-
   }
 
   #modal-close {
@@ -943,7 +949,7 @@ fieldset {
   .contact_description {
     font-size: 18px;
     font-weight: 400;
-    text-align: center! important;
+    text-align: center !important;
     color: #c8c8d4;
   }
 

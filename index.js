@@ -133,6 +133,7 @@ const modalContent = (project) => {
     </button> 
   </section>
 `;
+
   modalContainer.innerHTML = modal;
   modalMainContainer.style.display = 'block';
 };
