@@ -29,7 +29,7 @@ const projectArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
@@ -37,7 +37,7 @@ const projectArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
@@ -45,7 +45,7 @@ const projectArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
   {
@@ -53,7 +53,7 @@ const projectArray = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     img: './images/placeholder.png',
     technologies: ['css', 'html', 'javascript', 'Ruby'],
-    linkDemo: '',
+    linkDemo: 'https://til2to.github.io/porfolio_projects/',
     sourceCode: 'https://github.com/til2to/porfolio_projects/tree/main',
   },
 ];
