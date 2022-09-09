@@ -1,20 +1,20 @@
-### Project Name
+# Project Name
 
-# portfolio projects
+## portfolio projects
 
 > This is a website about showing projects that I have done.
 
 ## Getting Started
 
-# Prerequisites
+### Prerequisites
 > Vs Code
 
-# Setup
+### Setup
 
-# Install
+### Install
 > linters for javascript, css and html
 
-# Deployment
+### Deployment
 
 > Github
 
@@ -28,9 +28,11 @@
 
 👤 **Author1**
 
-# Owusu Dennis Prah
+### Owusu Dennis Prah
 
 👤 **Author2**
+
+### Kwasi Antwi
 
 - GitHub: [@til2to](https://til2to.github.io/porfolio_projects/)
 
