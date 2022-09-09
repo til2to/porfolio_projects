@@ -616,7 +616,6 @@ fieldset {
     font-size: 17px;
     z-index: 10;
     background-color: transparent;
-
   }
 
   .menu_items li {
@@ -674,7 +673,7 @@ fieldset {
     display: flex;
     margin-top: -2.5vh !important;
   }
-  
+
   #detail ul {
     justify-content: center;
     align-items: center;
@@ -990,5 +989,5 @@ fieldset {
     justify-content: center !important;
     border-top: 1px solid #3a3837;
   }
-
 }
+
