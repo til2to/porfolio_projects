@@ -148,7 +148,7 @@ projectBtns.forEach((projectBtn) => {
 
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  const email = contactForm.elements.email.value;
+  const email = contactForm.elements.value;
   if (email === email.toLowerCase()) {
     contactForm.submit();
   } else {
